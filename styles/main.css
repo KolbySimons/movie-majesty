@@ -1,0 +1,39 @@
+.movie {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.movie:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.movie__poster {
+    max-width: 10rem;
+}
+
+.movie__details {
+    padding: 20px;
+}
+
+.movie__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.movie__description {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+}
